@@ -1,0 +1,44 @@
+:root {
+    --primary-text-color: #ffffff
+    --accent-color: #2F303A
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------HEADER-------------------------------------------------- */
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}
+
+.logo:hover,
+.logo:focus {
+   
+}
+
+.studio {
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-nav {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
