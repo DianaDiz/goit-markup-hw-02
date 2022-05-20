@@ -1,6 +1,7 @@
 :root {
-    --primary-text-color: #ffffff
-    --accent-color: #2F303A
+    --primary-text-color: #212121;
+    --secondary-text-color: #E5E5E5;
+    --brand-color: #2F303A;
 }
 
 body {
@@ -15,7 +16,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--primary-text-color)
 
 }
 
@@ -42,3 +43,6 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
+.main {
+    background-color: var(--brand-color)
+}
