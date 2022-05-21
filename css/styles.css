@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* color: ; */
+    color: var(--primary-text-color);
 }
 
 /* ------------------------------------------HEADER-------------------------------------------------- */
@@ -45,6 +45,9 @@ letter-spacing: 0.02em;
 .site-nav a {
 color: #212121;
 }
+.site-nav .link.current {
+    color: var(--color-accent);
+}
 
 .auth-nav a {
 color: var(--secondary-text-color);
@@ -71,6 +74,7 @@ color: #FFFFFF;
 .btn {
     color: #FFFFFF;
     background-color: var(--color-accent);
+    cursor: pointer;
 }
 
 .subtitle {
@@ -83,7 +87,6 @@ color: #212121;
 }
 
 .text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -109,7 +112,6 @@ color: #212121;
 }
 
 .position {
-font-weight: 400;
 font-size: 16px;
 line-height: 3.17;
 text-align: center;
@@ -128,6 +130,37 @@ background-color: var(--brand-color)
 text-decoration: none;
  }
 
+
+ .btn-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: var(--secondary-brand-color);
+cursor: pointer;
+ }
+
+ .btn-list:hover {
+     color: #FFFFFF;
+     background-color: var(--color-accent);
+ }
+
+ .list-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+ }
+
+.list-text {
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
 /* ------------------------------------------FOOTER-------------------------------- */
 .footer {
 background-color: var(--brand-color);
@@ -137,15 +170,17 @@ color: #FFFFFF;
 }
 
 .address {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
+.address:hover {
+    color: var(--color-accent);
+}
+
 .mailtel {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
