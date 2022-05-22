@@ -72,9 +72,18 @@ color: #FFFFFF;
 }
 
 .btn {
-    color: #FFFFFF;
-    background-color: var(--color-accent);
-    cursor: pointer;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--color-accent);
+cursor: pointer;
 }
 
 .subtitle {
@@ -132,6 +141,8 @@ text-decoration: none;
 
 
  .btn-list {
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -170,6 +181,7 @@ color: #FFFFFF;
 }
 
 .address {
+    font-style: normal;
 font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
